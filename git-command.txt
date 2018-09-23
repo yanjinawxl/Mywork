@@ -1,0 +1,12 @@
+https://github.com/yanjinawxl/Mywork.git
+
+推送到remote远端
+git push -u origin master
+
+创建新的分支branch，同时进入该新的branch
+git checkout -b 'newbranch'
+如果要改回maste主干，使用
+git checkout master
+
+查看过去记录
+git log
