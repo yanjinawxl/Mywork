@@ -5,8 +5,20 @@ git push -u origin master
 
 创建新的分支branch，同时进入该新的branch
 git checkout -b 'newbranch'
+查看所有分支
+git branch -a
 如果要改回maste主干，使用
 git checkout master
 
 查看过去记录
 git log
+
+查看当前文件夹是否有文件变动
+git status
+
+推送新的文件上去
+git add git-command.txt
+git commit -m 'second_file'
+
+合并分支并处理冲突
+git merge
